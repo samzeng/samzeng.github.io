@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section>
+  <article class="post">
+    <h1 class="post__title">
+      {{ page.title }}
+    </h1>
+    <time class="post__time">{{ page.date | date: "%B %-d, %Y" }}</time>
+
+    <div class="typography">
+      {{ page.content }}
+    </div>
+  </article>
+
+  {% capture page_id %}{{ page.url }}{% endcapture %}
+  {% capture page_url %}{{site.url}}{{ page.url }}{% endcapture %}
+  {% capture page_title %}{{ page.title }}{% endcapture %}
+  {%- include comment.html -%}
+</section>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "zh" }}">
+  {%- include head.html -%}
+  <body>
+    <div class="fixed">
+      {%- include header.html -%}
+      {%- include footer.html -%}
+    </div>
+    <main class="site-content" aria-label="Content">
+      {{ content }}
+    </main>
+  </body>
+</html>

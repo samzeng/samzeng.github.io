@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section>
+  {%- for post in site.posts -%}
+  <article class="post">
+    <h1 class="post__title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <time class="post__time">{{ post.date | date: "%B %-d, %Y" }}</time>
+
+    <div class="typography">
+      {%- if post.excerpt -%}
+        {{ post.excerpt }}
+      {%- else -%}
+        {{ post.content }}
+      {%- endif -%}
+    </div>
+  </article>
+  {%- endfor -%}
+</section>

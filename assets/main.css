@@ -200,10 +200,12 @@ body {
 .typography a:after {
   content: "}";
 }
-.typography a[target="_blank"]:before {
+.typography a[target="_blank"]:before,
+.typography a[target="\\_blank"]:before {
   content: "[";
 }
-.typography a[target="_blank"]:after {
+.typography a[target="_blank"]:after,
+.typography a[target="\\_blank"]:after {
   content: "]";
 }
 .typography .reversefootnote {

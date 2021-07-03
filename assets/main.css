@@ -42,12 +42,6 @@ body {
 }
 
 /**
- * Header
- */
-.site-header {
-}
-
-/**
  * Logo
  */
 .site-logo,
@@ -101,7 +95,7 @@ body {
  * Post
  */
 .post {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .post:last-child {
   margin-bottom: 0;
@@ -124,7 +118,7 @@ body {
  * typography
  */
 .typography {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 16px;
 }
 .typography em {

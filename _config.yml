@@ -28,6 +28,10 @@ url: "https://samzeng.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: deshanzeng
 github_username: samzeng
 
+kramdown:
+  input: GFM
+  parse_block_html: true
+
 # Build settings
 plugins:
   - jekyll-feed

@@ -245,12 +245,6 @@ body {
   font-size: 28px;
   content: "...";
 }
-
-.drop-caps p:first-child:first-letter {
-  float: left;
-  color: $base-color__link--hover;
-  font-size: 300%;
-  padding-top: 2px;
-  line-height: 100%;
-  padding-right: 10px;
+.typography :target {
+  color: #000;
 }

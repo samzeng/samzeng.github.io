@@ -10,6 +10,7 @@ layout: default
     <time class="post__time">{{ page.date | date: "%B %-d, %Y" }}</time>
 
     <div class="typography">
+      {% include table-of-content.html html=content ordered=true %}
       {{ page.content }}
     </div>
   </article>

@@ -220,7 +220,7 @@ body {
 }
 .typography li ul,
 .typography li ol {
-  margin-top: 0;
+  margin-top: 4px;
   margin-bottom: 0;
   margin-left: 14px;
 }

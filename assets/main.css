@@ -85,7 +85,9 @@ body {
  */
 .site-footer {
   margin-top: 50px;
+  padding-left: 240px;
   padding-bottom: 50px;
+  width: 840px;
   text-align: center;
   color: #ababab;
   font-size: 12px;

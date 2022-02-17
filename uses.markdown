@@ -1,15 +1,12 @@
 ---
-layout: post
-title: My setup
-tags: [work, software, services]
-categories: [tool]
+layout: page
+title: uses
+permalink: /uses/
 ---
 
 What I use to get the job done, including hardware and software, I truly
 believe in implicity. I like simple tools that allow customisation for power
 users.
-
-<!--more-->
 
 - August 25, 2020 - Remove photoshop subscriptions and add Apple Music
   subscriptions.

@@ -2,3 +2,11 @@
 layout: default
 ---
 
+<section>
+  <article class="post">
+    <div class="typography">
+      {% include table-of-content.html html=content ordered=true %}
+      {{ content }}
+    </div>
+  </article>
+</section>

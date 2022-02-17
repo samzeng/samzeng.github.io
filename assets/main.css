@@ -32,12 +32,11 @@ body {
 .fixed {
   position: fixed;
   top: 50px;
-  width: 220px;
+  width: 180px;
 }
 .site-content {
-  margin-left: 280px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin-left: 240px;
+  padding: 60px 20px;
   width: 640px;
 }
 
@@ -86,7 +85,8 @@ body {
  */
 .site-footer {
   margin-top: 50px;
-  text-align: right;
+  padding-bottom: 50px;
+  text-align: center;
   color: #ababab;
   font-size: 12px;
 }
@@ -170,6 +170,9 @@ body {
 .typography p:first-child {
   margin-top: 0;
 }
+.typography img {
+  width: 100%;
+}
 .typography blockquote {
   margin-top: 26px;
   padding-right: 30px;
@@ -247,4 +250,18 @@ body {
 }
 .typography :target {
   color: #000;
+}
+
+@media (max-width: 1024px) {
+  .fixed {
+    position: relative;
+    top: 10px;
+  }
+  .site-nav {
+    flex-direction: row;
+  }
+  .site-content {
+    margin-left: 0;
+    width: 100%;
+  }
 }

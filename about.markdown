@@ -4,4 +4,4 @@ title: about
 permalink: /about/
 ---
 
-building
+Building a digital playground and personal logging system.

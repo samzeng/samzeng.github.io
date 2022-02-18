@@ -172,7 +172,7 @@ body {
 .typography p:first-child {
   margin-top: 0;
 }
-.typography img {
+.typography img.w-full {
   width: 100%;
 }
 .typography blockquote {

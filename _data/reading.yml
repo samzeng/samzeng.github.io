@@ -1,0 +1,13 @@
+- name: Currently Reading
+  children:
+    - name: 置身事内：中国政府与经济发展
+      author: 兰小欢
+      url: "https://www.goodreads.com/book/show/58798820"
+- name: Reading list 2021
+  children:
+    - name: "Anything You Want: 40 Lessons for a New Kind of Entrepreneur"
+      author: Derek Sivers
+      url: "https://www.goodreads.com/book/show/26200918-anything-you-want"
+    - name: "Programming TypeScript: Making Your JavaScript Applications Scale"
+      author: Boris Cherny
+      url: "https://www.goodreads.com/book/show/45362865-programming-typescript"

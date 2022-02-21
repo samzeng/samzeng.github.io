@@ -97,6 +97,13 @@ body {
   color: #ababab;
   font-size: 12px;
 }
+.site-copyright a,
+.site-copyright:active {
+  color: #666;
+}
+.site-copyright a:hover {
+  color: #999;
+}
 
 /**
  * Post

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: absorbing
-permalink: /absorbing/
+permalink: /absorbing.html
 ---
 
+WIP

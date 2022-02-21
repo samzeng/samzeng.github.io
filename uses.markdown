@@ -1,7 +1,7 @@
 ---
 layout: page
 title: uses
-permalink: /uses/
+permalink: /uses.html
 ---
 
 What I use to get the job done, including hardware and software, I truly

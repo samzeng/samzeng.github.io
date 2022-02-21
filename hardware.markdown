@@ -1,7 +1,7 @@
 ---
 layout: default
 title: hardware
-permalink: /hardware/
+permalink: /hardware.html
 ---
 
 WIP

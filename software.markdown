@@ -1,7 +1,7 @@
 ---
 layout: default
 title: software
-permalink: /software/
+permalink: /software.html
 ---
 
 WIP

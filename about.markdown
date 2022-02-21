@@ -1,7 +1,7 @@
 ---
 layout: default
 title: about
-permalink: /about/
+permalink: /about.html
 ---
 
 Building a digital playground and personal logging system.

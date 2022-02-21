@@ -1,7 +1,7 @@
 ---
 layout: page
 title: reading
-permalink: /reading/
+permalink: /reading.html
 ---
 
 ## Currently Reading

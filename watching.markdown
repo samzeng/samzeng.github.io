@@ -1,7 +1,7 @@
 ---
 layout: page
 title: watching
-permalink: /watching/
+permalink: /watching.html
 ---
 
 WIP

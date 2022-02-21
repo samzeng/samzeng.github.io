@@ -1,7 +1,7 @@
 ---
 layout: page
 title: listening
-permalink: /listening/
+permalink: /listening.html
 ---
 
 WIP

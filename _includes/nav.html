@@ -1,15 +1,42 @@
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages | default: default_paths -%}
+{% assign navList = site.data.site_nav %}
 
-{%- if page_paths -%}
+{% if navList[0] %}
+
+{% for nav in navList %}
+{% assign matchNav = navList | where: "url", page.url %}
+{% assign matchChild = nav.children | where: "url", page.url %}
+
+{% if matchNav[0] and page.url == nav.url %}
+  {% assign children = matchNav[0].children %}
+{% else %}
+  {% if matchChild[0] %}
+    {% assign children = nav.children %}
+  {% endif %}
+{% endif %}
+{% endfor %}
+
 <nav class="site-nav">
-  <a {% if page.url == '/' %}class="is-active"{% endif %} href="{{ '/' | relative_url }}">{{ 'home' | capitalize }}</a>
-  {%- for path in page_paths -%}
-  {%- assign my_page = site.pages | where: "path", path | first -%}
-  {%- if my_page.title -%}
-  <a href="{{ my_page.url | relative_url }}" {% if page.url == my_page.url -%} class="is-active"{%- endif -%}>{{ my_page.title | escape | capitalize }}</a>
-  {%- endif -%}
-  {%- endfor -%}
-</nav>
-{%- endif -%}
+  <ul class="site-nav__list">
+    {% for nav in navList %}
+    <li class="site-nav__item">
+      {% assign currentNavChild = nav.children | where: "url", page.url %}
+      <a href="{{ nav.url }}" {% if page.url == nav.url or currentNavChild[0] -%} class="is-active"{%- endif -%}>
+        {{ nav.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 
+  {% if children[0] %}
+  <ul class="site-nav__children">
+    {% for child in children %}
+    <li>
+      <a href="{{ child.url }}" {% if page.url == child.url -%} class="is-active"{%- endif -%}>
+        {{ child.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</nav>
+{% endif %}

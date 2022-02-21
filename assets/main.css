@@ -28,14 +28,11 @@ body {
 /**
  * 布局
  */
-
-.fixed {
-  position: fixed;
-  top: 50px;
-  width: 180px;
+.site-header {
+  display: flex;
+  padding-top: 30px;
 }
 .site-content {
-  margin-left: 240px;
   padding: 60px 20px;
   width: 640px;
 }
@@ -43,16 +40,20 @@ body {
 /**
  * Logo
  */
-.site-logo,
-.site-logo:active {
-  display: block;
-  margin-bottom: 50px;
-  padding: 20px 10px;
+.site-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  width: 120px;
+  height: 50px;
+  background-color: #000;
+}
+.site-logo__link,
+.site-logo__link:active {
   text-decoration: none;
   color: #fff;
-  text-align: right;
-  font-size: 28px;
-  background-color: #000;
+  font-size: 24px;
 }
 
 /**
@@ -60,35 +61,39 @@ body {
  */
 .site-nav {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  margin-left: 30px;
 }
 .site-nav a {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 3px 10px;
-  color: #999;
+  color: #333;
   text-decoration: none;
-  line-height: 24px;
-  font-size: 18px;
 }
 .site-nav a.is-active {
   color: #000;
+  font-style: italic;
 }
 .site-nav a:hover {
   color: #fff;
   background-color: #000;
 }
+.site-nav__item {
+  display: flex;
+}
+.site-nav__list {
+  list-style: none;
+}
+.site-nav__children {
+  list-style: none;
+  margin-left: 30px;
+}
+
+
 
 /**
  * Footer
  */
 .site-footer {
-  margin-top: 50px;
-  padding-left: 240px;
-  padding-bottom: 50px;
-  width: 840px;
-  text-align: center;
+  padding-left: 20px;
+  padding-bottom: 20px;
   color: #ababab;
   font-size: 12px;
 }
@@ -253,17 +258,6 @@ body {
 .typography :target {
   color: #000;
 }
-
-@media (max-width: 1024px) {
-  .fixed {
-    position: relative;
-    top: 10px;
-  }
-  .site-nav {
-    flex-direction: row;
-  }
-  .site-content {
-    margin-left: 0;
-    width: 100%;
-  }
+.typography details summary {
+  cursor: pointer;
 }

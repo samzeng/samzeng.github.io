@@ -2,9 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "zh" }}">
   {%- include head.html -%}
   <body>
-    <div class="fixed">
-      {%- include header.html -%}
-    </div>
+    {%- include header.html -%}
 
     <main class="site-content" aria-label="Content">
       {{ content }}

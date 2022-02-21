@@ -1,0 +1,22 @@
+- name: home
+  url: /
+- name: uses
+  url: /uses/
+  children:
+    - name: hardware
+      url: /hardware/
+    - name: software
+      url: /software/
+    - name: services
+      url: /services/
+- name: absorbing
+  url: /absorbing/
+  children:
+    - name: listening
+      url: /listening/
+    - name: reading
+      url: /reading/
+    - name: watching
+      url: /watching/
+- name: about
+  url: /about/

@@ -18,19 +18,6 @@ users.
 - April 30, 2016 - Add [vultr.com](//www.vultr.com/?ref=6916719){:rel='nofollow, external' target='_blank'} service.
 - May 03, 2015 - Add F.lux software.
 
-## Hardware
-
-### MacBook Pro
-
-I love Apple products.
-
-I bought my third MacBook Pro(13-inch) at 2018. It has 16 GB memory and 512 GB of
-storage.
-
-But in the Office, I use a MacBook Pro (Retina, 15-inch, Mid 2015) to work.
-
-Link: [apple.com/macbook-pro](//www.apple.com/macbook-pro/){:rel='nofollow, external' target='_blank'}
-
 ## Software
 
 ### iTerm2

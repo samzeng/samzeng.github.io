@@ -28,6 +28,7 @@ url: "https://samzeng.com" # the base hostname & protocol for your site, e.g. ht
 permalink: /:title:output_ext
 twitter_username: deshanzeng
 github_username: samzeng
+google_analytics: UA-17838866-5
 
 kramdown:
   input: GFM

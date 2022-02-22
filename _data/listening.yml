@@ -1,3 +1,8 @@
+- name: Listening List 2022
+  children:
+    - name: happy accident
+      artist: Tomberlin
+      url: "https://www.last.fm/music/Tomberlin/happy+accident"
 - name: Listening list 2021
   children:
     - name: 不爱说话的人

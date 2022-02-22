@@ -1,5 +1,8 @@
 - name: Listening List 2022
   children:
+    - name: Somewhere
+      artist: Sun June
+      url: "https://www.last.fm/music/Sun+June/Somewhere"
     - name: happy accident
       artist: Tomberlin
       url: "https://www.last.fm/music/Tomberlin/happy+accident"

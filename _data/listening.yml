@@ -1,0 +1,6 @@
+- name: Listening list 2021
+  children:
+    - name: 不爱说话的人
+      artist: 麻园诗人
+      url: "https://www.last.fm/music/%E9%BA%BB%E5%9B%AD%E8%AF%97%E4%BA%BA/%E4%B8%8D%E7%88%B1%E8%AF%B4%E8%AF%9D%E7%9A%84%E4%BA%BA"
+      cover: "/assets/images/albums/person_silent.jpg"

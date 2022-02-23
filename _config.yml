@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://samzeng.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title:output_ext
 page_excerpts: true
+timezone: Hongkong
 twitter_username: deshanzeng
 github_username: samzeng
 google_analytics: UA-17838866-5

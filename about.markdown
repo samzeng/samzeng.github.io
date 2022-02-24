@@ -6,10 +6,11 @@ permalink: /about.html
 
 ## Expectations
 
-I want to build a digital playground and personal logging system.
+I want to build a digital playground and personal logging system which can be
+public.
 
-Write a lot of words, take a lot of photos, record a lot of images,
-and spend my life that way.
+Write a lot of words, take a lot of photos, record a lot of images, and spend
+my life that way.
 
 
 ## License

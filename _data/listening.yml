@@ -6,6 +6,9 @@
     - name: happy accident
       artist: Tomberlin
       url: "https://www.last.fm/music/Tomberlin/happy+accident"
+    - name: Random Access Memories
+      artist: Daft Punk
+      url: "https://www.last.fm/music/Daft+Punk/Random+Access+Memories"
 - name: Listening list 2021
   children:
     - name: 不爱说话的人

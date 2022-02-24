@@ -1,14 +1,17 @@
 - name: Listening List 2022
   children:
+    - name: Peace or Love
+      artist: Kings of Convenience
+      url: "https://www.last.fm/music/Kings+of+Convenience/Peace+Or+Love"
+    - name: Random Access Memories
+      artist: Daft Punk
+      url: "https://www.last.fm/music/Daft+Punk/Random+Access+Memories"
     - name: Somewhere
       artist: Sun June
       url: "https://www.last.fm/music/Sun+June/Somewhere"
     - name: happy accident
       artist: Tomberlin
       url: "https://www.last.fm/music/Tomberlin/happy+accident"
-    - name: Random Access Memories
-      artist: Daft Punk
-      url: "https://www.last.fm/music/Daft+Punk/Random+Access+Memories"
 - name: Listening list 2021
   children:
     - name: 不爱说话的人

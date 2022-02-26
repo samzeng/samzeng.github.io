@@ -11,8 +11,6 @@
       url: /software.html
     - name: services
       url: /services.html
-    - name: camera
-      url: /camera.html
 - name: absorbing
   url: /absorbing.html
   children:

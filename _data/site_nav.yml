@@ -22,3 +22,6 @@
       url: /watching.html
 - name: about
   url: /about.html
+  children:
+    - name: goals
+      url: /goals.html

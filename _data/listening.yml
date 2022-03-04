@@ -1,5 +1,8 @@
 - name: Listening List 2022
   children:
+    - name: 现在现在
+      artist: 麻园诗人
+      url: "https://www.last.fm/music/%E9%BA%BB%E5%9B%AD%E8%AF%97%E4%BA%BA/%E7%8E%B0%E5%9C%A8%E7%8E%B0%E5%9C%A8"
     - name: Peace or Love
       artist: Kings of Convenience
       url: "https://www.last.fm/music/Kings+of+Convenience/Peace+Or+Love"

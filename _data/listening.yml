@@ -26,3 +26,8 @@
     - name: 李健
       artist: 李健
       url: "https://www.last.fm/music/%E6%9D%8E%E5%81%A5/%E6%9D%8E%E5%81%A5"
+- name: Listeniing list 2016
+  children:
+    - name: X&Y
+      artist: Coldplay
+      url: "https://www.last.fm/music/Coldplay/X&Y"

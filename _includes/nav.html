@@ -30,7 +30,7 @@
   {% if children[0] %}
   <ul class="site-nav__children">
     {% for child in children %}
-    <li>
+    <li class="site-nav__item">
       <a href="{{ child.url }}" {% if page.url == child.url -%} class="is-active"{%- endif -%}>
         {{ child.name }}
       </a>

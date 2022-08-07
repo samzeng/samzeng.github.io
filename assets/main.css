@@ -26,7 +26,7 @@ body {
 }
 
 /**
- * 布局
+ * Layout
  */
 .site-header {
   display: flex;
@@ -66,10 +66,12 @@ body {
 .site-nav a {
   color: #333;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .site-nav a.is-active {
   color: #000;
   font-style: italic;
+  font-weight: bold;
 }
 .site-nav a:hover {
   color: #fff;
@@ -77,6 +79,8 @@ body {
 }
 .site-nav__item {
   display: flex;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .site-nav__list {
   list-style: none;

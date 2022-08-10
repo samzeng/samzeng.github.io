@@ -14,7 +14,7 @@ my life that way.
 
 ## Build With Love
 
-I love people, but I don't trust a government.
+I love the country and the people, but I don't trust any of the governments.
 
 ## License
 
